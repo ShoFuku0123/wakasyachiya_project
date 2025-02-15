@@ -10,6 +10,10 @@
         {
             "src": "/(.*)",
             "dest": "/dir/main.py"
+        }
+    ],
+    "routes": [
+        {
             "src": "/static/(.*)",
             "dest": "/static/$1"
         }
