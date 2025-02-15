@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./static/css/style.css"> <!-- CSSファイルの読み込みができない -->
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>ちとこば</title>
 </head>
@@ -152,7 +152,7 @@
         <div class="audiocontent">
             <button id="playButton"></button>
             <button id="stopButton"></button>
-            <audio src="../audio/huukanomangetsu.mp3" id="audio" controls>
+            <audio src="{{ url_for('static', filename='audio/sample.mp3') }}" id="audio" controls>
                 <p>音声が再生できません</p>
             </audio>
         </div>
