@@ -16,8 +16,3 @@ def audio_book():
 @app.route("/azumaya_top")
 def azumaya_top():
     return render_template('azumaya_top.html')
-
-@app.route('/audio/<filename>')
-def get_audio(filename):
-    """ MP3ファイルを提供するエンドポイント """
-    return send_from_directory('static/audio', filename, mimetype='audio/mpeg')
