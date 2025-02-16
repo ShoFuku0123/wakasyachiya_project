@@ -8,8 +8,7 @@
     ],
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/dir/main.py"
+            "src": "/audio/(.*)", "dest": "/wsgi.py"
         }
     ]
 }
