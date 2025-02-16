@@ -21,3 +21,6 @@ def azumaya_top():
 def get_audio(filename):
     """ MP3ファイルを提供するエンドポイント """
     return send_from_directory('static/audio', filename, mimetype='audio/mpeg')
+
+if __name__ == '__main__':
+    app.run(debug=True)
