@@ -2,6 +2,7 @@ vercelを使用した公開用のリポジトリです。（権利の関係上�
 https://github.com/t-t328/wakasyachiya_project でローカル実行は可能です。
 
 # wakasyachiya_project
+Name：四阿(Azumaya)
 
 font-size:
     17.5px
